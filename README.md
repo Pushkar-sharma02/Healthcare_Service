@@ -53,7 +53,11 @@ Before running the project, ensure that you have the following installed:
       ```bash
       npm install
       ```
-
+      
+      ```bash
+      npm i lucide-react
+      ```
+      
 4. **Run the project**:
     After the dependencies are installed, you can start the project using the following commands:
     
