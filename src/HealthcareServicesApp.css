@@ -1,0 +1,191 @@
+.healthcare-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.app-title {
+  font-size: 32px; 
+  margin-bottom: 25px; 
+  color: #2c3e50; 
+  text-align: center; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  
+  border-bottom: 2px solid #3498db; 
+  padding-bottom: 10px; 
+}
+
+.error-alert {
+  margin-bottom: 20px;
+}
+
+.service-form {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #ddd; 
+  transition: all 0.3s ease; 
+}
+
+.service-form:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-2px); 
+}
+
+.service-form h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2c3e50; 
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cancel-button {
+  margin-top: 10px;
+}
+
+.services-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.services-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  padding: 20px;
+  background-color: #f7f7f7; 
+  border-radius: 10px; 
+}
+
+.service-item {
+  border: 1px solid #e0e0e0;
+  padding: 15px; 
+  border-radius: 10px; 
+  background-color: #fff; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  text-align: center;
+}
+
+.service-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-5px); 
+}
+
+.service-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2c3e50; 
+  font-weight: bold;
+}
+
+.service-description {
+  margin-bottom: 10px;
+  color: #7f8c8d; 
+  font-style: italic; 
+}
+
+.service-price {
+  font-weight: bold;
+  color: #16a085; 
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.service-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.service-actions .edit-button,
+.service-actions .delete-button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.service-actions .edit-button {
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+}
+
+.service-actions .edit-button:hover {
+  background-color: #2980b9; 
+  transform: translateY(-3px); 
+}
+
+.service-actions .delete-button {
+  background-color: #e74c3c; 
+  color: #fff;
+  border: none;
+}
+
+.service-actions .delete-button:hover {
+  background-color: #c0392b; 
+  transform: translateY(-3px); 
+}
+
+.button-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.edit-button:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .healthcare-app {
+    padding: 10px;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+}
+.primary-button {
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #218838; 
+}
+
+.primary-button:active {
+  background-color: #1e7e34; 
+}
+
+.primary-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #28a745;
+}
